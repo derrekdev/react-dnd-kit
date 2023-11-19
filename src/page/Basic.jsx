@@ -18,13 +18,15 @@ export default function Basic() {
     </BasicDraggable>
   );
 
-  const droppableMarkup = <div className="">Drop here</div>;
+  const droppableMarkup = <span>Drop here</span>;
 
   return (
     <DndContext onDragEnd={handleDragEnd}>
-      <div className="flex flex-row gap-10 w-full">
+      <div className="flex flex-row gap-4 w-full">
         {/* {draggableMarkup} */}
-        {!isDropped ? draggableMarkup : null}
+        <div className="w-[300px] h-[500px] p-10 border-neutral-400 border-2">
+          {!isDropped ? draggableMarkup : null}
+        </div>
         <BasicDroppable>
           {isDropped ? draggableMarkup : droppableMarkup}
         </BasicDroppable>
