@@ -10,6 +10,10 @@ function App() {
       name: "Basic Drop and Drop on both panels",
       linkSrc: "/basic2",
     },
+    {
+      name: "Basic  Drop and Drop on multiple panels",
+      linkSrc: "/basic3",
+    },
   ];
 
   return (
