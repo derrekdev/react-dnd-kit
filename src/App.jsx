@@ -11,8 +11,12 @@ function App() {
       linkSrc: "/basic2",
     },
     {
-      name: "Basic  Drop and Drop on multiple panels",
+      name: "Basic Drop and Drop on multiple panels",
       linkSrc: "/basic3",
+    },
+    {
+      name: "Drop to correct panel",
+      linkSrc: "/droponcorrect",
     },
   ];
 

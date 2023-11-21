@@ -7,12 +7,14 @@ import "./index.css";
 import Basic1 from "./page/Basic1.jsx";
 import Basic2 from "./page/Basic2.jsx";
 import Basic3 from "./page/Basic3.jsx";
+import DropOnCorrect from "./page/DropOnCorrect.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/basic", element: <Basic1 /> },
   { path: "/basic2", element: <Basic2 /> },
   { path: "/basic3", element: <Basic3 /> },
+  { path: "/droponcorrect", element: <DropOnCorrect /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
