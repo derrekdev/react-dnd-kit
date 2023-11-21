@@ -47,7 +47,7 @@ function Droppable(props) {
   );
 }
 
-export default function Basic() {
+export default function Basic1() {
   // return (
   //   <DndContext>
   //     <BasicDraggable />
