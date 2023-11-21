@@ -105,7 +105,7 @@ export default function DropOnCorrect() {
               state.isDropped2 ? "bg-green-400" : "bg-red-400"
             } text-neutral-900 font-semibold block`}
           >
-            Your answer is correct
+            Your answer is {state.isDropped2 ? "correct" : "wrong"}
           </span>
         )}
       </div>
