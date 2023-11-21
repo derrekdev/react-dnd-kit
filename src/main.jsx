@@ -4,11 +4,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import Header from "./components/Header/Header.jsx";
 import "./index.css";
+import Basic2 from "./page/Basic2.jsx";
 import Basic from "./page/basic.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/basic", element: <Basic /> },
+  { path: "/basic2", element: <Basic2 /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

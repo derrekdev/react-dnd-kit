@@ -7,8 +7,8 @@ function App() {
       linkSrc: "/basic",
     },
     {
-      name: "Basic 2",
-      linkSrc: "/",
+      name: "Basic Drop and Drop on both panels",
+      linkSrc: "/basic2",
     },
   ];
 
@@ -16,14 +16,14 @@ function App() {
     <div className="flex flex-col">
       <h1 className="pb-14">React Drag and Drop Kit</h1>
       <p className="pb-2">Click on the link below for the types of dnd</p>
-      <ul className="list-none flex flex-col items-center gap-y-4">
+      <ul className="flex flex-col items-center list-none gap-y-4">
         {currentLink.map((link, index) => (
           <li key={index} className="">
             <a
               key={index}
               href={link.linkSrc}
               // target="_blank"
-              className=" text-2xl hover:text-neutral-600"
+              className="text-2xl hover:text-neutral-600"
             >
               {link.name}
             </a>
