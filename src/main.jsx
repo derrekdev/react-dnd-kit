@@ -7,6 +7,7 @@ import "./index.css";
 import Basic1 from "./page/Basic1.jsx";
 import Basic2 from "./page/Basic2.jsx";
 import Basic3 from "./page/Basic3.jsx";
+import DragOverlayBasic from "./page/DragOverlayBasic.jsx";
 import DropOnCorrect from "./page/DropOnCorrect.jsx";
 
 const router = createBrowserRouter([
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
   { path: "/basic2", element: <Basic2 /> },
   { path: "/basic3", element: <Basic3 /> },
   { path: "/droponcorrect", element: <DropOnCorrect /> },
+  { path: "/dragoverlay", element: <DragOverlayBasic /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

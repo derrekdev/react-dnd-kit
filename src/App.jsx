@@ -18,6 +18,10 @@ function App() {
       name: "Drop to correct panel",
       linkSrc: "/droponcorrect",
     },
+    {
+      name: "Drag Overlay",
+      linkSrc: "/dragoverlay",
+    },
   ];
 
   return (
