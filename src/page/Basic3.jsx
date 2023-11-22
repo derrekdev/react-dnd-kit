@@ -75,7 +75,7 @@ export default function Basic3() {
 
   return (
     <DndContext onDragEnd={handleDragEnd}>
-      <div className="flex flex-row w-[800px] gap-4">
+      <div className="flex flex-row justify-center w-[800px] gap-4">
         <div className="h-[500px] w-1/2 flex justify-center items-center border-2">
           {!isDropped1 && !isDropped2 && !isDropped3 ? <Draggable /> : null}
         </div>

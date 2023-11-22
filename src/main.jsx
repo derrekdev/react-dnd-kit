@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <App /> */}
     <Header />
-    <main className="main-container">
+    <main className="flex flex-col items-center justify-center w-full main-container ">
       <RouterProvider router={router} />
     </main>
   </React.StrictMode>

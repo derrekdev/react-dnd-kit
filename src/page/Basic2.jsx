@@ -74,7 +74,7 @@ export default function Basic2() {
 
   return (
     <DndContext onDragEnd={handleDragEnd}>
-      <div className="flex flex-row w-full gap-4">
+      <div className="flex flex-row justify-center gap-4">
         {/* <div className="w-[300px] h-[500px] p-10 border-neutral-400 border-2"></div> */}
         {/* <div className="w-[300px] h-[500px] p-10 border-neutral-400 border-2"></div> */}
         <Droppable isDrop={isDropped1} id="droppable1">

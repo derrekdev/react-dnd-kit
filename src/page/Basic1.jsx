@@ -66,7 +66,7 @@ export default function Basic1() {
 
   return (
     <DndContext onDragEnd={handleDragEnd}>
-      <div className="flex flex-row w-full gap-4">
+      <div className="flex flex-row justify-center gap-4">
         {/* {draggableMarkup} */}
         <div className="w-[300px] h-[500px] p-10 border-neutral-400 border-2">
           {!isDropped ? draggableMarkup : null}
