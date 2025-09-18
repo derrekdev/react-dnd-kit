@@ -5,7 +5,7 @@ import {
   useDroppable,
 } from "@dnd-kit/core";
 import { restrictToWindowEdges } from "@dnd-kit/modifiers";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Draggable(props) {
   const { attributes, listeners, setNodeRef } = useDraggable({
@@ -45,7 +45,7 @@ export default function DragOverlayBasic() {
       <div className="flex flex-row gap-4">
         <div className="flex flex-col w-[160px] gap-4">
           {items.map((id) => (
-            <>
+            <div key={id}>
               {isDragValue !== id ? (
                 <Draggable key={id} id={id}>
                   <div
@@ -56,7 +56,7 @@ export default function DragOverlayBasic() {
                   </div>
                 </Draggable>
               ) : null}
-            </>
+            </div>
           ))}
         </div>
 
